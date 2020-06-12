@@ -1,0 +1,63 @@
+.delete {
+  display: none;
+
+}
+
+.input {
+  width: 500px;
+
+}
+
+.text {
+  margin-left: 10px;
+  display: inline;
+  background-color: red;
+}
+
+li:hover {
+  .delete {
+    display: block;
+    float: right;
+  }
+
+  .data {
+    display: block;
+    font-size: 18px;
+
+  }
+}
+
+.data {
+  display: none;
+
+}
+
+.dodaj {
+  display: inline;
+
+}
+
+.container {
+  overflow: auto;
+  margin: 50px auto 30px;
+  width: 600px;
+  height: 750px;
+  background-color: rgb(255, 255, 255);
+  border: solid rgb(250, 247, 247);
+
+  ul {
+    font-size: 20px;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+}
